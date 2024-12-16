@@ -5,26 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="música para todas as pessoas.">
     <title>Spotify - Web Play</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./Styles/style.css">
 </head>
 <body>
-    <header class="Cabecalho">
-        <div class="Container-logo">
-            <img src="./images/spotify.png" alt="Logo Spotify" class="logo">
+    <header>
+        <div class="container-cabecalho">
+            <div class="container-cabecalho-logo">
+                <img src="./images/logo-spotify.png" alt="Logo Spotify">
+            </div>
+            <div class="container-cabecalho-menu">
+                <a href="./index.html"  class="container-cabecalho-menu-home" >
+                    <div></div>
+                </a>
+                <div class="container-cabecalho-menu-search">
+                    <input type="search" class="menu-search" placeholder="O que você quer ouvir?">
+                    <a href="#" class="container-cabecalho-session">
+                        <div></div>
+                    </a>
+                </div>
+            </div>
+            <div class="login" >
+                <button class="login-btn-inscreva">Inscreva-se</button>
+                <button class="login-btn-entra">Entrar</button>
+            </div>
         </div>
-        <nav class="menu">
-            <a href="./index.html">
-                <div class="menu-home"></div>
-            </a>
-            <input type="search" class="menu-search">
-            <a href="#">
-                <div class="menu-navegacao"></div>
-            </a>
-        </nav>
-        <div class="login" >
-            <button class="login-btn-inscreva">Inscreva-se</button>
-            <button class="login-btn-entra">Entrar</button>
-        </div>
+        
     </header>
 </body>
 </html>

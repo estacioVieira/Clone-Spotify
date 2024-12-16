@@ -1,0 +1,88 @@
+.container-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.container-cabecalho-logo img {
+    width: 35px;
+}
+
+.container-cabecalho-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-cabecalho-menu-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--hover-input);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: .5em;
+
+}
+
+.container-cabecalho-menu-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-cabecalho-menu-home div {
+    background-image: url('../images/icone-home.svg');
+    width: 24px;
+    height: 24px;
+}
+
+.menu-search {
+    height: 35px;
+    width: 350px;
+    background-color: var(--cor-primaria);
+    border: none;
+    border-radius: 20px;
+
+}
+
+.menu-search::placeholder {
+    background-image: url('../images/icone-search.svg');
+    background-repeat: no-repeat;
+    padding-left: 2.5em;
+    background-position: 3%;
+}
+
+.container-cabecalho-session {
+    position: relative;
+    right: 12%;
+}
+
+.container-cabecalho-session div {
+    background-image: url('../images/navegar.svg');
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 24px;
+    border-left: 1px solid #b3b3b3;
+    background-position: 100%;
+}
+
+.login-btn-inscreva {
+    background-color: transparent;
+    border: none;
+    font-size: 1.13em;
+    font-weight: 700;
+    color: #fff;
+    margin-right: 2em;
+}
+
+.login-btn-entra {
+    background-color: #fff;
+    font-size: 1.13em;
+    font-weight: 700;
+    border: none;
+    padding: 0.8em 1.7em;
+    border-radius: 24px;
+}
