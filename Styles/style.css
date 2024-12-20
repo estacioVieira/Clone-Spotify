@@ -1,7 +1,10 @@
-/* Fontes */
+/* Importação da fonte */
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+/* Importação dos arquivos .css */
 @import url('./header.css');
 @import url('./main.css');
+@import url('./category.css');
 
 /* Reset */
 *{
