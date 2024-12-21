@@ -1,0 +1,21 @@
+.container-footer{
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    background: linear-gradient(to right,  #AE2996,#8F4EB6,#7173D4, #519AF4);
+    height: 12vh    ;
+}
+.container-footer button{
+    background-color: #fff;
+    font-size: 1.13em;
+    font-weight: 700;
+    border: none;
+    padding: 0.8em 1.7em;
+    border-radius: 24px;
+    height: 48px;
+}
+.container-footer div{
+    margin: 0.5em 0;
+}

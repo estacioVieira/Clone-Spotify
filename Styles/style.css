@@ -5,7 +5,7 @@
 @import url('./header.css');
 @import url('./main.css');
 @import url('./category.css');
-
+@import url('./footer.css');
 /* Reset */
 *{
     margin: 0;
@@ -36,6 +36,8 @@ body{
     font-family: var(--font);
     font-size: 13px;
     color: var(--cor-titulo);
+    width: 100%;
+    height: 100vh;
 }
 
 

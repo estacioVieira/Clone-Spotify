@@ -3,18 +3,27 @@
     align-items: center;
     justify-content: space-between;
     padding: 0.5em;
+    width: 100%;
 }
-
+.container-cabecalho-logo{
+    width: 30%;
+}
 .container-cabecalho-logo img {
     width: 35px;
 }
 
-.container-cabecalho-menu {
+.container-cabecalho-menu{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 40%;
 }
 
+.login{
+    width: 30%;
+    display: flex;
+    justify-content: right;
+}
 .container-cabecalho-menu-home {
     display: flex;
     justify-content: center;
